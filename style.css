@@ -1,0 +1,379 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  top:0 !important;
+  font-size: 16px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none !important;
+  text-decoration: none !important; 
+}
+
+input {
+  outline: none !important; 
+}
+
+button {
+  outline: none !important; 
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*====================*/
+
+
+.container{
+	max-width: 1181px;
+  width: 100%;
+  margin: auto;
+
+
+
+} 
+/* hero_section Css */
+.hero_area{
+  background: url('./images/hero_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 78px;
+
+}
+.logo_area{
+  float: left;
+  width: 20%;
+  overflow: hidden;
+}
+.logo_area a img{
+  width: 100%;
+}
+
+.header_area{
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 114px;
+
+}
+.nev_menu{
+  width: 60%;
+  float: left;
+  overflow: hidden;
+}
+
+.social_area{
+  float: left;
+  width: 20%;
+  overflow: hidden;
+}
+
+.nev_menu ul {
+text-align: center;
+
+}
+.nev_menu ul li{
+  display: inline;
+  text-align: center;
+}
+.nev_menu ul li a{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.5px;
+color: rgba(255, 255, 255, 0.75);
+display: inline-block;
+margin: 20px 25px;
+} 
+/* hero_section Css */
+/* banaer Css */
+.banner_area{
+  max-width: 712px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.banner_area_title h1{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 26px;
+}
+.banner_area_title h1 span{
+ color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.banner_area_title p{
+ font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 173.5%;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 25px;
+}
+.banner_area_title a img{
+  background: #FF1616;
+border-radius: 28px;
+margin-bottom: 40px;
+}
+
+/* banaer Css */
+/* soepen_section Css */
+.soepen_section{
+  max-width: 1169px;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+}
+.soepen_area{
+  osition: absolute;
+width: 392px;
+height: 441px;
+left: 119px;
+top: 1022px;
+
+}
+.soepen_area h1{
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #FFFFFF;
+opacity: 0.5;
+padding-left: 119px;
+
+
+}
+
+/* soepen_section css */
+/*Features_section css */
+.Features_section{
+ max-width:1440px ;
+ width: 100%;
+ margin: auto;
+ background:grey;
+ overflow: hidden;
+}
+
+.container_Features{
+  max-width: 772px;
+  width: 100%;
+ margin-left: 334px;
+ margin-right: 334px;
+  margin-top: 87px;
+  margin-bottom: 119px;
+}
+
+
+
+.Features_area p{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.135em;
+text-transform: uppercase;
+color: #FF1616;
+margin-top: 113px;
+
+
+}
+.Features_area h1{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 131.7%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 15px;
+
+}
+.Fresh_area{
+   max-width: 644px;
+  width: 100%;
+  margin: auto;
+}
+.Fresh_Ingredients{
+  max-width: 254px;
+  width: 100%;
+  margin: auto;
+}
+
+.Fresh_Ingredients h1{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+margin: auto;
+
+}
+.Fresh_Ingredients p{
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 173.5%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.7;
+}
+.Amazing_Taste {
+ max-width: 250px;
+ width: 100%;
+ margin: auto;
+}
+.Amazing_Taste h1{
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.Amazing_Taste p{
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 173.5%;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*Features_section css */
+/*Contact _section css */
+.Contact_us {
+  max-width: 1130px;
+  width: 100%;
+  margin: auto;
+  background: black;
+}
+.Contact_call h1{
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 73px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+
+.Contact_call a img{
+  
+}
+
+/*Contact _section css */
